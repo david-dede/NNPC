@@ -69,7 +69,7 @@ ul{
     display: flex;
     align-items: end;
 }
-/* .pics_container1 button{ */
+.pics_container1 button{
     background-color: white;
     padding: 20px;
     
