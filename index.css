@@ -49,7 +49,7 @@ ul{
 }
 .pics_container1{
     
-    /* background-image: url(./image/workers\ on\ ship.jpeg); */
+    background-image: url(./image/workers\ on\ ship.jpeg);
     background-size: cover;
     width: 100%;
     height: 100vh;
