@@ -13,7 +13,7 @@
     /* height: 100vh; */
     /* Adjust the height as needed */
     background-size: cover;
-    /* background-position: center; */
+    background-position: center;
 }
 .slide1 {
     display: flex;
