@@ -15,8 +15,8 @@ document.addEventListener("DOMContentLoaded", function () {
     currentSlide = (currentSlide + 1) % slides.length;
     showSlide(currentSlide);
   }
-  let button = document.getElementById("button");
-  button.addEventListener("click", nextSlide);
+  let button = document.getElementById("button")
+  button.addEventListener('click',nextSlide)
 
   // Initial call to show the first slide
   showSlide(0);
