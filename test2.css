@@ -1,0 +1,91 @@
+/* Styles for slides */
+.slide {
+    display: none;
+    position: relative;
+    height: 100vh;
+}
+
+.slide::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    filter: brightness(60%);
+}
+
+.slide:nth-child(1)::before {
+    background-image: url('./image/ship.jpeg');
+}
+
+.slide:nth-child(2)::before {
+    background-image: url('./image/tab.jpeg');
+}
+
+.slide:nth-child(3)::before {
+    background-image: url('./image/bb_slide_e2b975be0d.jpeg');
+}
+
+.slide:nth-child(4)::before {
+    background-image: url('./image/solar.jpeg');
+}
+
+.slide:nth-child(5)::before {
+    background-image: url('./image/workers on ship.jpeg');
+}
+
+/* Styles for text */
+.slide .info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 2;
+    /* Ensure text is above background image */
+}
+
+.slide .big {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.slide .small {
+    font-size: 16px;
+}
+
+/* Navigation buttons */
+#button_back,
+#button_next {
+    cursor: pointer;
+}
+
+/* Yellow line indicator */
+.line {
+    width: 45%;
+}
+
+#big_line {
+    background-color: yellow;
+    height: 10px;
+    width: 20%;
+    /* Initial width, will be adjusted dynamically */
+    margin-top: 10px;
+    transition: width 0.5s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.small_line {
+    width: 100%;
+    background-color: aqua;
+    height: 5px;
+    margin-top: -7.5px;
+    position: relative;
+    z-index: 0;
+}

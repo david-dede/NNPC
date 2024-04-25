@@ -15,6 +15,7 @@
     background-size: cover;
     background-position: center;
 }
+
 .slide1 {
     display: flex;
     align-items: center;
@@ -54,14 +55,17 @@
     /* gap: 20px; */
     /* Ensure .info respects z-index */
 }
+
 .slide1 .info .big {
     font-size: 50px;
     margin-left: 10%;
 }
-.slide1 .info .small{
+
+.slide1 .info .small {
     font-size: 20px;
     margin-right: 20%;
 }
+
 .slide2 {
     display: flex;
     align-items: center;
@@ -78,7 +82,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('./image/tab.jpeg');    background-size: cover;
+    background-image: url('./image/tab.jpeg');
+    background-size: cover;
     background-position: center;
     filter: brightness(70%);
     /* Apply 70% brightness filter to the background image */
@@ -117,7 +122,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('./image/bb_slide_e2b975be0d.jpeg');    background-size: cover;
+    background-image: url('./image/bb_slide_e2b975be0d.jpeg');
+    background-size: cover;
     background-position: center;
     filter: brightness(70%);
     /* Apply 70% brightness filter to the background image */
@@ -154,7 +160,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('./image/solar.jpeg');    background-size: cover;
+    background-image: url('./image/solar.jpeg');
+    background-size: cover;
     background-position: center;
     filter: brightness(70%);
     /* Apply 70% brightness filter to the background image */
@@ -191,7 +198,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('./image/workers\ on\ ship.jpeg');    background-size: cover;
+    background-image: url('./image/workers\ on\ ship.jpeg');
+    background-size: cover;
     background-position: center;
     filter: brightness(70%);
     /* Apply 70% brightness filter to the background image */
@@ -209,4 +217,25 @@
     align-items: center;
     justify-content: center;
     /* Ensure .info respects z-index */
+}
+
+.button {
+    border-radius: 50%;
+    /* padding: 20px; */
+    height: 60px;
+    width: 60px;
+    border: none;
+    margin: 2px;
+    background-color: rgb(249, 231, 70);
+    /* font-size: 30px; */
+}
+
+
+
+#big_line {
+    background-color: yellow;
+    height: 10px;
+    width: 20%;
+    margin-top: 10px;
+    transition: width 0.5s ease;
 }
