@@ -72,6 +72,7 @@ ul {
     /* Adjust the height as needed */
     background-size: cover;
     background-position: center;
+    /* display: none; */
 }
 
 .slide1 {
@@ -285,6 +286,7 @@ ul {
     border: none;
     margin: 2px;
     background-color: rgb(249, 231, 70);
+    cursor: grab;
     /* font-size: 30px; */
 }
 
@@ -292,9 +294,10 @@ ul {
     margin-left: 13%;
     margin-top: -10%;
     position: absolute;
-    z-index: 2;
+    z-index: 20;
     display: flex;
     align-items: center;
+   
 }
 .object .line{
     width: 600px;
