@@ -273,6 +273,17 @@ ul {
     justify-content: center;
     /* Ensure .info respects z-index */
 }
+.button{
+    border-radius: 50%;
+    /* padding: 20px; */
+    height: 60px;
+    width: 60px;
+    border: none;
+    margin: 2px;
+    background-color: rgb(249, 231, 70);
+    /* font-size: 30px; */
+}
+
 .mass_container {
     display: flex;
     padding: 0px 10%;

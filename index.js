@@ -15,8 +15,18 @@ document.addEventListener("DOMContentLoaded", function () {
     currentSlide = (currentSlide + 1) % slides.length;
     showSlide(currentSlide);
   }
-  let button = document.getElementById("button");
-  button.addEventListener("click", nextSlide);
+  function backSlide() {
+    if(currentSlide===0){
+      currentSlide=slides.length-1
+    }
+    currentSlide = (currentSlide - 1) % slides.length;
+    showSlide(currentSlide);
+  }
+  let button_back = document.getElementById("button_back");
+  button_back.addEventListener("click", backSlide);
+
+  let button_next = document.getElementById("button_next");
+  button_next.addEventListener("click", nextSlide);
 
   // Initial call to show the first slide
   showSlide(0);
