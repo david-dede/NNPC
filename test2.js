@@ -64,12 +64,9 @@ document.addEventListener("DOMContentLoaded", function () {
   let buttonNext = document.getElementById("button_next");
   buttonNext.addEventListener("click", nextSlide);
 
-  // Initial call to show the first slide
   showSlide(currentSlide);
 
-  // Automatically switch to the next slide every 4 seconds
   setInterval(nextSlide, 4000);
 
-  // Call updateYellowLineWidth initially to set the initial width
   updateYellowLineWidth();
 });
