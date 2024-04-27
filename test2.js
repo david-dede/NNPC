@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
         widthPercentage = 40; // Width for slide 2
         break;
       case 2:
-        widthPercentage = 60; // Width for slide 3
+        widthPercentage = 60; 
         break;
       case 3:
         widthPercentage = 80; 
