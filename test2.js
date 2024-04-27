@@ -16,7 +16,6 @@ document.addEventListener("DOMContentLoaded", function () {
     let maxWidth = 100; // Maximum width
     let widthPercentage;
 
-    // Define widthPercentage based on current slide
     switch (currentSlide) {
       case 0:
         widthPercentage = 20; 
