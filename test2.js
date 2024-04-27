@@ -35,10 +35,8 @@ document.addEventListener("DOMContentLoaded", function () {
         widthPercentage = 100; // Width for slide 5 and beyond
     }
 
-    // Ensure widthPercentage does not exceed maxWidth
     widthPercentage = Math.min(widthPercentage, maxWidth);
 
-    // Update yellow line width
     yellowLine.style.width = widthPercentage + "%";
   }
 
