@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Define widthPercentage based on current slide
     switch (currentSlide) {
       case 0:
-        widthPercentage = 20; // Width for slide 1
+        widthPercentage = 20; 
         break;
       case 1:
         widthPercentage = 40; 
