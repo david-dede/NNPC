@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
         break;
       case 4:
       default:
-        widthPercentage = 100; // Width for slide 5 and beyond
+        widthPercentage = 100; 
     }
 
     widthPercentage = Math.min(widthPercentage, maxWidth);
