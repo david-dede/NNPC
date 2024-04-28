@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let yellowLine = document.getElementById("big_line");
 
   function showSlide(n) {
-    // Hide all slides
+   
     for (let i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
     }
