@@ -74,7 +74,6 @@
     background-color: yellow;
     height: 10px;
     width: 20%;
-    /* Initial width, will be adjusted dynamically */
     margin-top: 10px;
     transition: width 0.5s ease;
     position: relative;
