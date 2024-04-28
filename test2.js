@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     for (let i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
     }
-    // Show the specified slide
+   
     slides[n].style.display = "block";
   }
 
