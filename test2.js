@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function updateYellowLineWidth() {
-    let maxWidth = 100; // Maximum width
+    let maxWidth = 100; 
     let widthPercentage;
 
     switch (currentSlide) {
