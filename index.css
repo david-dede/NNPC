@@ -76,7 +76,6 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* Center items horizontally */
     height: 100vh;
     /* position: relative; */
 }
