@@ -93,7 +93,6 @@ ul {
 
 .slide1 .info {
     color: white;
-    /* font-size: 0px; */
     z-index: 10;
     position: relative;
     width: 100%;
@@ -119,7 +118,6 @@ ul {
     align-items: center;
     /* Align items vertically */
     justify-content: center;
-    /* Center items horizontally */
     height: 100vh;
     /* position: relative; */
 }
