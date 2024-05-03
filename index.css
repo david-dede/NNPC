@@ -449,13 +449,8 @@ ul {
 }
 
 .bignews {
-
-    /* background-color: orange; */
-    /* object-fit: cover; */
-
     grid-row: 1 / span 2;
     border-bottom: solid 1px black;
-
 }
 
 .bignews img {
