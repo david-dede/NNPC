@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
     yellowLine.style.width = widthPercentage + "%";
 
     setTimeout(function () {
-      yellowLine.style.transition = ""; // Reset transition
+      yellowLine.style.transition = "";
     }, 500);
   }
 
