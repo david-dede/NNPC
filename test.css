@@ -147,7 +147,6 @@
 .slide4 {
     display: flex;
     align-items: center;
-    /* Align items vertically */
     justify-content: center;
     height: 100vh;
 }
