@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     widthPercentage = Math.min(widthPercentage, maxWidth);
 
-    yellowLine.style.transition = "width 0.5s ease"; // Add transition
+    yellowLine.style.transition = "width 0.5s ease";
     yellowLine.style.width = widthPercentage + "%";
 
     setTimeout(function () {
