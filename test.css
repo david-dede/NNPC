@@ -202,7 +202,6 @@
     background-size: cover;
     background-position: center;
     filter: brightness(70%);
-    /* Apply 70% brightness filter to the background image */
 }
 
 .slide5 .info {
