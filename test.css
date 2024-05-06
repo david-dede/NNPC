@@ -150,7 +150,6 @@
     /* Align items vertically */
     justify-content: center;
     height: 100vh;
-    /* position: relative; */
 }
 
 .slide4 .image {
