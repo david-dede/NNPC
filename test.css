@@ -100,7 +100,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* Ensure .info respects z-index */
 }
 
 
